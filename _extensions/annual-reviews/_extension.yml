@@ -8,7 +8,11 @@ contributes:
       toc: true
       filters:
         - annual-reviews.lua
+      pdf-engine: pdflatex
     pdf:
+      cite-method: natbib
+      natbiboptions: comma
+      biblio-style: ar-style1
       include-in-header: header.tex
       format-resources:
         - "ar-1col-S2O.cls"
